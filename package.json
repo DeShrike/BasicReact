@@ -1,16 +1,15 @@
 {
-  "name": "rea",
+  "name": "basicreact",
   "version": "1.0.0",
-  "description": "Teact test",
-  "main": "index.js",
+  "description": "Basic React example",
+  "main": "App.js",
   "type": "module",
   "scripts": {
     "build": "babel *.jsx -d . && node build.js"
   },
-  "author": "Me",
+  "author": "DeShrike",
   "license": "ISC",
   "dependencies": {
-    "@babel/preset-env": "^7.23.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -20,6 +19,7 @@
     "@babel/plugin-syntax-jsx": "^7.22.5",
     "@babel/plugin-transform-react-jsx": "^7.22.15",
     "@babel/preset-react": "^7.22.15",
+    "@babel/preset-env": "^7.23.2",
     "babel": "^6.23.0",
     "babelify": "^10.0.0",
     "browserify": "^17.0.0"
