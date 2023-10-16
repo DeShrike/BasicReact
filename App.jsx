@@ -1,6 +1,8 @@
 import { createRoot } from "react-dom/client";
 import Button from "./Button";
 import Counter from "./Counter";
+// import Icon from "./basket.svg";
+
 
 function App() {
     return (

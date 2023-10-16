@@ -25,3 +25,9 @@ Browse to http://localhost:8000
 
 - Move code to src folder
 - Add Typescript support
+
+
+
+        ["inline-react-svg", {
+            "svgo": false
+        }],
